@@ -2,7 +2,7 @@ import React from 'react'
 import { Card, CardBody, CardFooter, Stack, Heading, Text, Button, ButtonGroup, Divider, Image } from '@chakra-ui/react'
 import './Item.css'
 import { Link } from 'react-router-dom'
-import ItemCount from '../ItemCount/ItemCount'
+
 
 const Item = ({nombre, img, precio, id, stock}) => {
   return (
@@ -29,7 +29,7 @@ const Item = ({nombre, img, precio, id, stock}) => {
       <Button variant='ghost' colorScheme='blue'>
         <Link to={`/producto/${id}`}>Ver Detalle</Link>
       </Button>
-      <ItemCount initialValue={1} stock={stock}/>
+      
     </ButtonGroup>
   </CardFooter>
 </Card>
