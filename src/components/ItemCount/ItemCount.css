@@ -1,0 +1,34 @@
+.contador{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #A3B4A2;
+    width: 30%;   
+    border-radius: 10%;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 4%;
+}
+
+.boton{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 20%;
+    font-size: 2em;
+    padding: 4%;
+    height: 3vh;
+    color: 38686a;
+    
+}
+
+.cantidad{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}

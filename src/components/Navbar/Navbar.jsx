@@ -20,7 +20,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <Flex background={'#a3b4a2'} justify={"space-evenly"} align={"center"} height={"10vh"} width={"100%"}>
-      <Heading><Link to='/' >Logo</Link></Heading>
+      <Heading className="logo" ><Link to='/' ><img src="../../imagenProductos/logo.jpeg" alt="Logotipo" /></Link></Heading>
       <Menu>
         <MenuButton as={Button} rightIcon={<FaCaretDown />}>
           Categorias

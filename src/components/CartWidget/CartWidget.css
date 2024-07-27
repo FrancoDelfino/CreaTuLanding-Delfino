@@ -1,0 +1,13 @@
+.carrito{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #187795;
+    color: white;
+    padding: 10px;
+    border-radius: 15%;
+}
+
+span{
+    margin-left: 10px;
+    font-weight: bold;
+}
